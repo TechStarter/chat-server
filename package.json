@@ -1,0 +1,15 @@
+{
+  "name": "message-server",
+  "version": "1.0.0",
+  "description": "chat server for techstarter",
+  "main": "index.js",
+  "repository": "https://github.com/TechStarter/chat-server.git",
+  "author": "Eric Mai",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-session": "^1.15.4",
+    "sequelize": "^4.4.2",
+    "socket.io": "^2.0.3"
+  }
+}
