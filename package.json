@@ -6,10 +6,18 @@
   "repository": "https://github.com/TechStarter/chat-server.git",
   "author": "Eric Mai",
   "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production nodemon server",
+    "server-dev": "NODE_ENV=development nodemon server"
+  },
   "dependencies": {
+    "config": "^1.26.2",
+    "dotenv": "^4.0.0",
     "express": "^4.15.3",
     "express-session": "^1.15.4",
-    "sequelize": "^4.4.2",
+    "mongoose": "^4.11.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
     "socket.io": "^2.0.3"
   }
 }

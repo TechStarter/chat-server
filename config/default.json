@@ -1,0 +1,15 @@
+{
+  "mongoose": {
+    "client": "mongodb",
+    "connection": {
+      "database": "envoked_chat",
+      "host": "localhost"
+    }
+  },
+
+  "redis":{},
+
+  "passport": {
+    "Google": {}
+  }
+}
